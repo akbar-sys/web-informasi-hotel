@@ -3,3 +3,16 @@
 @import "tailwindcss/components";
 
 @import "tailwindcss/utilities";
+
+.bg-image {
+    background:url('/img/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bg-image-repeat {
+    background:url('/img/bg.jpg');
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: cover;
+}
