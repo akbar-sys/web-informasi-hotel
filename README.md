@@ -7,10 +7,10 @@ Website informasi hotel sederhana dengan menggunakan Laravel 8 dan TailwindCSS s
 3. Muhamad Nur Hasyim - 11181050
 
 ### Usage
-1. composer install
-2. npm install
-3. npm run dev
+1. run "composer install"
+2. run "npm install"
+3. run "npm run dev"
 4. copy .env.example to .env
 5. create db 'hotel'
-6. php artisan migrate
-7. php artisan db:seed
+6. run "php artisan migrate"
+7. run "php artisan db:seed"
