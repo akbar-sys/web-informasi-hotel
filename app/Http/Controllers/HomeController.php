@@ -10,8 +10,7 @@ class HomeController extends Controller
     public function index()
     {
         $hotels = Hotel::latest()->paginate(6);
-        return view('home.index',compact('hotels'))
-    /**
+        return view('home.index',compact('hotels'));
     }
     public function show($id)
     {
